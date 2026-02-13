@@ -24,9 +24,9 @@ This project implements and compares three sequence-to-sequence models for gener
 ### Final Test Set Performance
 | Model | BLEU Score | Exact Match |
 |-------|------------|-------------|
-| Vanilla RNN | 0.0014 | 0.0000 |
-| LSTM | 0.0014 | 0.0000 |
-| LSTM + Attention | 0.0038 | 0.0000 |
+| Vanilla RNN | 0.14 | 0.00 |
+| LSTM | 0.14 | 0.0000 |
+| LSTM + Attention | 0.38 | 0.00 |
 
 ## Files
 - `vanilla_rnn_final.pt` - Trained Vanilla RNN model
@@ -40,7 +40,7 @@ This project implements and compares three sequence-to-sequence models for gener
 - `attention_example_*.png` - Attention visualizations
 
 ## Running the Code
-All code is contained in this Kaggle notebook. Simply run cells in order.
+All code is contained in this Kaggle notebook. Simply run cells in order. Kaggle link: https://www.kaggle.com/code/nasiruddin1310/seq2seq-text-to-python-code-generation
 
 ## Key Findings
 1. **LSTM vs Vanilla RNN**: LSTM shows improved performance over vanilla RNN, especially for longer docstrings
@@ -48,4 +48,4 @@ All code is contained in this Kaggle notebook. Simply run cells in order.
 3. **Length Analysis**: All models perform better on shorter docstrings, but attention model degrades less on long inputs
 
 ## Author
-[Your Name]
+Nasir Uddin
