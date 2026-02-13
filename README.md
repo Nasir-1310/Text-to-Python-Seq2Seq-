@@ -28,6 +28,13 @@ This project implements and compares three sequence-to-sequence models for gener
 | LSTM | 0.14 | 0.00 |
 | LSTM + Attention | 0.38 | 0.00 |
 
+<img width="5370" height="1470" alt="training_curves" src="https://github.com/user-attachments/assets/07515b2b-0ae0-4383-b07d-46384d72a4fc" />
+
+<img width="3528" height="3668" alt="results_comparison" src="https://github.com/user-attachments/assets/b5652096-b427-4e6d-8863-dcfce91ca987" />
+<img width="3564" height="1764" alt="performance_vs_length" src="https://github.com/user-attachments/assets/c0d3e853-a616-44f0-979f-ad2837a794c4" />
+
+
+
 ## Files
 - `vanilla_rnn_final.pt` - Trained Vanilla RNN model
 - `lstm_final.pt` - Trained LSTM model
