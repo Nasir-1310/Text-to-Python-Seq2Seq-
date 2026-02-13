@@ -17,7 +17,7 @@ This project implements and compares three sequence-to-sequence models for gener
 - Hidden dimension: 256
 - Batch size: 64
 - Learning rate: 0.001
-- Epochs: 20
+- Epochs: 10
 
 ## Results Summary
 
