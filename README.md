@@ -8,7 +8,7 @@ This project implements and compares three sequence-to-sequence models for gener
 
 ## Dataset
 - **Source**: CodeSearchNet Python dataset
-- **Training samples**: 10,000
+- **Training samples**: 5,000
 - **Validation samples**: 1,000
 - **Test samples**: 1,000
 
@@ -25,7 +25,7 @@ This project implements and compares three sequence-to-sequence models for gener
 | Model | BLEU Score | Exact Match |
 |-------|------------|-------------|
 | Vanilla RNN | 0.14 | 0.00 |
-| LSTM | 0.14 | 0.0000 |
+| LSTM | 0.14 | 0.00 |
 | LSTM + Attention | 0.38 | 0.00 |
 
 ## Files
